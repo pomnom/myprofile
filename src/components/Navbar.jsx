@@ -52,7 +52,10 @@ const MyBox = styled(Box)(({ theme }) => ({
 }));
 const Navbar = () => {
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: "white" }}>
+    <AppBar
+      position="sticky"
+      sx={{ backgroundColor: "white", boxShadow: "none" }}
+    >
       <MyToolbarTop
         sx={{ minHeight: { xs: 32, sm: 32 }, padding: { xs: 0, sm: 0 } }}
       >
